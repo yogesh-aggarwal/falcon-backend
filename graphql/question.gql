@@ -2,7 +2,7 @@ type Question {
   _id: String!
   title: String!
   body: String!
-  views: String!
+  views: Int!
   isSuspended: Boolean!
   votes: Votes!
   owner: User!
